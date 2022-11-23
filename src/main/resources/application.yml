@@ -3,17 +3,17 @@
 spring:
   data:
     mongodb:
-    #      uri: mongodb://121.43.63.109:27392 #无密码
+    #      uri: mongodb://localhost:1111 #无密码
       # uri: mongodb://用户名:密码@服务器IP:端口/数据库名mongodb://localhost/test
 #      uri: mongodb://bingo:s\>dwe2@121.43.63.109:27392/mongo_test?authSource=admin&authMechanism=SCRAM-SHA-1
-      host: 121.43.63.109
-      port: 27392
-      username: bingo
-      password: s2o8vbn
-      database: mongo_test
-      authentication-database: mongo_test
+      host: localhost
+      port: 1111
+      username: 1111
+      password: 1111
+      database: 1111
+      authentication-database: 1111
 
 #    elasticsearch:
 #      client:
 #        reactive:
-#          endpoints: 121.43.63.109:33241
+#          endpoints: 1111
